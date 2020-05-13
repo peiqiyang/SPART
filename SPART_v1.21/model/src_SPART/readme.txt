@@ -1,12 +1,12 @@
 Main functions
 
-SPART_main 
+level 1: SPART_main 
   - BSM
   - PROSPECT_5D
   - SAILH
   - SMAC
 
-set_inptu_manually or set_input_from_excel
+level 1: set_inptu_manually or set_input_from_excel
   - define_bands
   - define_constants
   - extraterrestrial_radiance
@@ -14,6 +14,6 @@ set_inptu_manually or set_input_from_excel
   - read_or_creater_srf
   - spectral_convolution
 
-Select_parameter (optional for multiple runs)
-cakc_brdf (optional for BRDF simulation)
+level 1: Select_parameter (optional for multiple runs)
+level 1: calc_brdf (optional for BRDF simulation)
   
