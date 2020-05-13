@@ -2,8 +2,8 @@
 % *************************************************************************
 % *     functions: Run the SPART model                                    *
 % *     Authors:   Peiqi Yang (p.yang@utwente.nl)                         *
-% *     Create:    10/April/2020                                          *
-% *     Update:    04/Dec/2019                                            *
+% *     Create:    04/Dec/2019                                            *
+% *     Update:    12/May/2020                                            *
 % *     Faculty of Geo-Information Science and Earth Observation (ITC)    *
 % *     University of Twente, 7500 AE Enschede, The Netherlands           *
 % *************************************************************************
@@ -12,6 +12,9 @@
 % Developed by Peiqi Yang (p.yang@utwente.nl),ITC, University of Twente
 % Christiaan van der Tol and Wout Verhoef
 % Coupling BSM, PROSAIL and SMAC to simulate TOA reflectance
+
+% Updates:
+% PY, 11/MAY/2020, optimize I/O. 
 
 %% 0. start fresh and get constants
 % dbstop if error

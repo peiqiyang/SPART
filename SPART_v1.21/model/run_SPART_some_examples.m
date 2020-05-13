@@ -2,8 +2,8 @@
 % *************************************************************************
 % *     functions: Run the SPART model for some exmaples                  *
 % *     Authors:   Peiqi Yang (p.yang@utwente.nl)                         *
-% *     Create:    10/April/2020                                          *
-% *     Update:    04/Dec/2019                                            *
+% *     Create:    10/Dec/2019                                          *
+% *     Update:    10/MAY/2020                                          *
 % *     Faculty of Geo-Information Science and Earth Observation (ITC)    *
 % *     University of Twente, 7500 AE Enschede, The Netherlands           *
 % *************************************************************************

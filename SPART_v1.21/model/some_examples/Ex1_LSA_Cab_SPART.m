@@ -4,7 +4,9 @@
 % edited by Peiqi Yang
 % Coupling BSM, PROSAIL and SMAC to simulate TOA reflectance
 
-% This is an example for local sensitivity analysis
+% This is an example for local sensitivity analysis of the model to leaf
+% chlorophyll content 
+% a plotting function is included 
 
 
 %% 1. load the input data
