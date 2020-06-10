@@ -43,7 +43,7 @@ function Opt_atm = SMAC(angles,atm)
 
 %=============================================================================================
 
-if ~isempty(atm.Pa0)||atm.Pa0~=-999
+if ~isempty(atm.Pa)||atm.Pa0~=-999
     atm.Pa = Altitude2Pa(atm.alt_m,atm.Pa0);
 end
     

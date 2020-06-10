@@ -58,7 +58,7 @@ set(axesHandlesToAllLines(j+4),'Color', colsx(j,:));
 end
 key= {'TOC AOT$_{550}$ = 0','TOC AOT$_{550}$ = 0.5','TOC AOT$_{550}$ = 1','TOC AOT$_{550}$ = 1.5',...
     'TOA AOT$_{550}$ = 0','TOA AOT$_{550}$ = 0.5','TOA AOT$_{550}$ = 1','TOA AOT$_{550}$ = 1.5'};
-xlim([400,1100])
+% xlim([400,1100])
 ylim([0,0.5])
 xlabel('Wavelength (nm)')
 ylabel('Reflectance')
