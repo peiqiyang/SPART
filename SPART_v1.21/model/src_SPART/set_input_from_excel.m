@@ -104,7 +104,7 @@ wlSensor            =   sensor.wl_smac;
 % Ea0 and Ea_ Extraterrestrial_irradiance
 wl_Ea               =   Ea0_.wl_Ea;         % wl
 Ea0_                =   Ea0_.Ea;            % W M-2 nm-1
-La_                 =   Extraterrestrial_radiance(Ea0_,DOY,angles.tts);
+La_                 =   Extraterrestrial_radiance(Ea0_,DOY);
 
 % sensor SRF
 atm.La_             =   Spectral_convolution(wl_Ea,La_,sensor); % extraterrestrial radiance W M-2 nm-1 sr-1
