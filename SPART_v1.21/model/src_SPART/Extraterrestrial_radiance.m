@@ -20,5 +20,5 @@ function La = Extraterrestrial_radiance(Ea0,DOY)
 b   =   2*pi*DOY/365;       % radians 
 correct_factor = 1.00011+0.034221*cos(b)+0.00128*sin(b)+...
     0.000719*cos(2*b)+0.000077*sin(2*b);
-La  =   Ea0*correct_factor/pi;
+La  =   Ea0*correct_factor.*cos(tts.*pi/180)/pi;
 
