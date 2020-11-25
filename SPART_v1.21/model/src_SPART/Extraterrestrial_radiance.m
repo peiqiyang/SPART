@@ -1,5 +1,5 @@
 
-function La = Extraterrestrial_radiance(Ea0,DOY)
+function La = Extraterrestrial_radiance(Ea0,DOY,tts)
 
 % Extraterrestrial radiation
 % Peiqi Yang (p.yang@utwente.nl)
